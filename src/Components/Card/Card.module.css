@@ -1,0 +1,44 @@
+.card {
+    width: 20vw;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.card img {
+    width: 20vw;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.priceRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.price{
+    color: rgb(109, 94, 210);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.month{
+    font-size: 15px;
+    color: rgb(154, 144, 223);
+    font-weight: 100;
+}
+
+.heart {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.heart:hover {
+    cursor: pointer;
+}
+
+.icon{
+    margin-top: 3px;
+}
